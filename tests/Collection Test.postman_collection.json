@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "28a331fe-7ab2-4872-baac-2c9064ab11c9",
+		"name": "Collection Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.googleapis.com/books/v1/volumes?q=macbeth+inauthor:shakespeare",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=macbeth+inauthor:shakespeare",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "macbeth+inauthor:shakespeare"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
